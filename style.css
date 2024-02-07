@@ -93,5 +93,10 @@ footer{
 
 
 .controlls{
+    /* display: flex; */
     color: #fff;
+}
+
+.mute{
+
 }
