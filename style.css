@@ -14,6 +14,7 @@ body{
 
 img{
     width: 100%;
+    display: block;
 }
 
 /*--------------
@@ -58,7 +59,7 @@ main{
 }
 .user-container{
     /* display: flex; */
-    width: 260px;
+    width: 20%;
     /* height: 155px; */
     padding: 10px 4px;
 }
