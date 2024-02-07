@@ -57,8 +57,9 @@ main{
     overflow: auto;
 }
 .user-container{
-    display: flex;
+    /* display: flex; */
     width: 260px;
+    /* height: 155px; */
     padding: 10px 4px;
 }
 
