@@ -1,0 +1,35 @@
+/*--------------
+    DEBUG
+--------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*--------------
+    HEADER
+--------------*/
+
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.speaker-buttons{
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+.speaker-buttons *{
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 4px 2px;
+    border-radius: 5px;
+    font-size: medium;
+}
