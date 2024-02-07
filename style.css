@@ -12,11 +12,17 @@ body{
     background-color: black;
 }
 
-
+img{
+    width: 100%;
+}
 
 /*--------------
     HEADER
 --------------*/
+
+header{
+    height: 100px;
+}
 
 .header-container{
     display: flex;
@@ -47,11 +53,15 @@ main{
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 10px;
+    height: calc(100vh - 200px);
+    overflow: auto;
+}
+.user-container{
+    padding: 10px 4px;
 }
 
 .user{
     position: relative;
-    padding: 10px 4px;
 }
 
 .user-name{
@@ -59,6 +69,25 @@ main{
     color: #fff;
     background-color: rgba(99, 110, 122, 0.4);
     padding: 4px;
-    bottom: 14px;
-    left: 4px;
+    bottom: 0;
+    left: 0;
+}
+
+/*--------------
+    FOOTER
+--------------*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+}
+
+
+.controlls{
+    color: #fff;
 }
