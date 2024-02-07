@@ -57,7 +57,7 @@ main{
 .user-name{
     position: absolute;
     color: #fff;
-    background-color: #4a4a4a;
+    background-color: rgba(99, 110, 122, 0.4);
     padding: 4px;
     bottom: 14px;
     left: 4px;
