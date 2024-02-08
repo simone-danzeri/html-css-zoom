@@ -55,13 +55,14 @@ main{
     padding-right: 40px;
     padding-bottom: 10px;
     height: calc(100vh - 200px);
-    overflow: auto;
+    overflow-y: auto;
 }
 .user-container{
     /* display: flex; */
     width: 20%;
     /* height: 155px; */
     padding: 10px 4px;
+    min-width: 250px;
 }
 
 .user{
